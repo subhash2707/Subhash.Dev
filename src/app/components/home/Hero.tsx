@@ -15,11 +15,11 @@ const socialLinks = [
   //   icon: <BsInstagram size={20}/>,
   //   url: "https://www.instagram.com/",
   // },
-  { name: "Email", icon: <MdMailOutline size={25}/>, url: "mailto:siddhantdwivedi404@gmail.com" },
+  { name: "Email", icon: <MdMailOutline size={25}/>, url: "mailto:subhashc2707.com" },
   {
     name: "WhatsApp",
     icon: <BsWhatsapp size={20}/>,
-    url: "https://wa.me/+917887614788",
+    url: "https://wa.me/+916396304269",
   },
 ];
 
@@ -36,7 +36,7 @@ const Hero = () => {
           className="group relative w-40 sm:w-40 md:w-48 lg:w-56 aspect-square overflow-hidden rounded-full transition-all duration-300"
         >
           <Image
-            src="/images/hero/siddhant.png"
+            src="/images/hero/subhash.jpeg"
             alt="Siddhant Dwivedi - profile photo"
             fill
             className="grayscale-100 hover:grayscale-0 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
@@ -53,7 +53,7 @@ const Hero = () => {
           <div className="flex flex-col justify-center items-center text-center md:text-start md:justify-start md:items-start">
             <span>Hi, I&apos;m</span>
             <h1 className="font-display tracking-wide text-5xl font-medium text-gray-50">
-              Siddhant Dwivedi
+              Subhash Chandra
             </h1>
           </div>
 
@@ -74,7 +74,7 @@ const Hero = () => {
           </motion.div>
 
           <p className="text-base tracking-wider text-center md:text-left">
-I&apos;m <span>Siddhant Dwivedi</span>, a passionate <span>MERN Stack Developer</span> dedicated to building dynamic, high-performance digital experiences. From crafting sleek, responsive <span>frontends</span> in React to architecting scalable <span>backends</span> with Node.js and MongoDB, I bring ideas to life with clean code, modern design, and seamless functionality.
+I&apos;m <span>Subhash Chandra</span>, a passionate <span>MERN Stack Developer</span> dedicated to building dynamic, high-performance digital experiences. From crafting sleek, responsive <span>frontends</span> in React to architecting scalable <span>backends</span> with Node.js and MongoDB, I bring ideas to life with clean code, modern design, and seamless functionality.
 
           </p>
         </motion.div>

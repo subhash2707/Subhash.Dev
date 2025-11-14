@@ -16,9 +16,9 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "QuickStay — Hotel Booking Platform",
+    title: "BookNest - Library-Management System",
     description:
-      "Hotel booking web app featuring live availability, filters, and location-aware search for multiple concurrent users. Implemented secure booking flow with JWT authentication, role-based access (Admin/Guest), and booking history tracking. Integrated an admin dashboard for listings, pricing, and availability management. Deployed on Vercel with automated build & deployment simulating a CI/CD pipeline.",
+      "BookNest is a robust and user-friendly library management system designed to streamline book tracking, user management, and borrowing/return processes. The system features secure authentication, automated reminders, and an analytics-driven admin dashboard, making library administration efficient and data-driven",
     image: "/images/projects/mpc.webp",
     tags: [
       "React.js",
@@ -28,15 +28,14 @@ const projects: Project[] = [
       "Tailwind CSS",
       "JWT",
       "REST API",
-      "Vercel",
     ],
-    github: "https://github.com/Yungstunner/QuickStay",
+    github: "https://github.com/Weirdbyte/Library-Management-System",
     demo: null,
   },
   {
-    title: "MediConnect — HACK-36",
+    title: "Rahi - Car Booking App",
     description:
-      "Full-stack doctor–patient appointment booking platform developed during HACK-36 with calendar scheduling for 50+ simulated appointments and dashboards for 10 mock doctors. Implemented JWT authentication, role-based access control, and REST APIs for 5 user roles and 15 endpoints, optimizing queries to reduce response time by 40%. Built interactive UI components using React.js and Tailwind CSS.",
+      "MediLink is a full-stack doctor–patient appointment booking platform built during Hack36, designed to streamline scheduling and doctor management. The system supports calendar-based booking for over 50 simulated appointments and provides interactive dashboards for 10 mock doctors. It features secure JWT authentication with role-based access control across five user roles, along with a set of 15 optimized REST API endpoints that improved response times by 40%",
     image: "/images/projects/hrms.webp",
     tags: [
       "React.js",
@@ -47,26 +46,26 @@ const projects: Project[] = [
       "JWT",
       "REST API",
     ],
-    github: "https://github.com/Yungstunner/MediConnect",
+    github: "https://github.com/HeatblasterAA/Raahi",
     demo: null,
   },
-  {
-    title: "Email Spam Classifier — Streamlit + NLTK",
-    description:
-      "Machine learning web app to classify emails as spam or ham using NLTK and Tf-idf Vectorizer. Trained on 5,000 labeled emails from Kaggle, achieving 98% accuracy and 99% precision after preprocessing (tokenization, stopword removal, vectorization). Deployed via Streamlit and Render for real-time text classification.",
-    image: "/images/projects/mcodo.webp",
-    tags: [
-      "Python",
-      "NLTK",
-      "Scikit-learn",
-      "Tf-idf",
-      "Streamlit",
-      "Render",
-      "Machine Learning",
-    ],
-    github: "https://github.com/Yungstunner/Email-Spam-Classifier",
-    demo: "https://email-spam-classifier-yungstunner.onrender.com",
-  },
+  // {
+  //   title: "Email Spam Classifier — Streamlit + NLTK",
+  //   description:
+  //     "Machine learning web app to classify emails as spam or ham using NLTK and Tf-idf Vectorizer. Trained on 5,000 labeled emails from Kaggle, achieving 98% accuracy and 99% precision after preprocessing (tokenization, stopword removal, vectorization). Deployed via Streamlit and Render for real-time text classification.",
+  //   image: "/images/projects/mcodo.webp",
+  //   tags: [
+  //     "Python",
+  //     "NLTK",
+  //     "Scikit-learn",
+  //     "Tf-idf",
+  //     "Streamlit",
+  //     "Render",
+  //     "Machine Learning",
+  //   ],
+  //   github: "https://github.com/Yungstunner/Email-Spam-Classifier",
+  //   demo: "https://email-spam-classifier-yungstunner.onrender.com",
+  // },
 ];
 
 const Projects = () => {

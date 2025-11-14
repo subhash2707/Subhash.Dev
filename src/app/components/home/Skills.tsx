@@ -24,7 +24,7 @@ export const skillsData: SkillGroup[] = [
     title: "Frontend",
     skills: [
       { name: "React", logo: FaReact },
-      { name: "Next.js", logo: TbBrandNextjs },
+      // { name: "Next.js", logo: TbBrandNextjs },
       { name: "TypeScript", logo: TbBrandTypescript },
       { name: "TailwindCSS", logo: RiTailwindCssLine },
       { name: "JavaScript", logo: TbBrandJavascript },

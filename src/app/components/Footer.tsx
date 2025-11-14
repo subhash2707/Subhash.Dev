@@ -16,17 +16,17 @@ const socialLinks = [
   {
     name: "WhatsApp",
     icon: <BsWhatsapp size={20} />,
-    url: "https://wa.me/+916388998101",
+    url: "https://wa.me/+916396304269",
   },
   {
     name: "Email",
     icon: <MdMailOutline size={24} />,
-    url: "mailto:siddhantdwivedi404@gmail.com",
+    url: "mailto:subhashc2707@gmail.com",
   },
   {
     name: "Linkedin",
     icon: <FiLinkedin size={24} />,
-    url: "https://www.linkedin.com/in/siddhant-dwivedi-528298255/",
+    url: "https://www.linkedin.com/in/subhash-chandra-0ba129249/",
   },
 ];
 
@@ -49,11 +49,11 @@ const Footer = () => {
         <div className="mt-4 w-full flex flex-col-reverse md:flex-row gap-8 justify-between">
           <div className="flex gap-1 flex-col items-center md:items-start justify-center">
             <h3 className="text-xl font-medium font-display flex gap-1">
-              <Code2Icon /> SIDDHANT DWIVEDI
+              <Code2Icon />  SUBHASH CHANDRA
             </h3>
             <p className="text-gray-500 text-center">
-              Siddhant Dwivedi © {new Date().getFullYear()} Built with ❤️ by Siddhant
-              Dwivedi
+              Subhash Chandra © {new Date().getFullYear()} Built with ❤️ by Subhash
+              Chandra
             </p>
           </div>
 

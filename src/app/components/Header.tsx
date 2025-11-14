@@ -31,7 +31,7 @@ const NavBar = () => {
         className="font-medium font-display text-gray-50 flex gap-2 justify-center items-center"
       >
         <Code2Icon />
-        SIDDHANT DWIVEDI
+        SUBHASH CHANDRA
       </Link>
       <nav>
         <ul className="flex gap-2 text-sm font-medium">
@@ -52,7 +52,7 @@ const NavBar = () => {
             <Link
               target="_blank"
               title="Github"
-              href="https://github.com/Yungstunner"
+              href="https://github.com/subhash2707"
               className="flex items-center gap-2 hover:text-gray-200 transition-all duration-200 bg-gradient-to-b from-transparent to-transparent hover:from-transparent hover:to-gray-900 hover:border-b-[0.2] border-gray-500 px-3 py-2 rounded-lg"
             >
               <BsGithub size={18} />
