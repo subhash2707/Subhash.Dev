@@ -39,7 +39,7 @@ const schemaData = {
 };
 
 export const metadata: Metadata = {
-  title: "Sohez: Official Site of Sayyed Sohel",
+  title: "Subhash Chandra | Portfolio",
   description:
     "Sayyed Sohel — Full-Stack Web & Android Developer, Founder of Sohezsoft. I build fast, modern, and user-focused digital experiences that stand out.",
   keywords: [
